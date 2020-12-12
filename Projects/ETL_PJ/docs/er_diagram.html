@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" charset="UTF-8"/> 
+  <title>Home page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">Movie Ratings Analysis</a>
+      
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="project_proposal.html">Project Proposal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="er_diagram.html">ER Diagram</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rotten_tomatos.html">Rotten Tomatoes Top 10 Lists</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="imdb.html">IMDb Top 10 Lists</a>
+          </li>
+      
+        </ul>
+      </nav>
+      
+    
+        <img class="er_diagram" src=ER_diagram2.png alt="ER Diagram">
+
+  
+        <p class="paragraph">
+          The ER diagram was created using two datasets from Kaggle:
+          <br>
+          1. <a href="https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney">
+            Movies on Streaming Networks</a> 
+          <br>
+          2. <a href=https://www.kaggle.com/rounakbanik/the-movies-dataset>
+            Movie Metadata Set </a> 
+        </p>
+
+        <p class="paragraph">
+        The two datasets were merged utilizing the "Title" and "Year".
+        The merged data was cleaned to include only the columns needed
+        for the movie query database. 
+        </p>
+        <p class="paragraph">
+        The movies_table was created with a unique movie id for each
+        movie.  Each second normal form table is connected to the movie_table
+        via the unique movie ID.  
+        </p>
+   
+
+
+</body>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" charset="UTF-8"/> 
+  <title>Home page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">Movie Ratings Analysis</a>
+      
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="project_proposal.html">Project Proposal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="er_diagram.html">ER Diagram</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rotten_tomatos.html">Rotten Tomatoes Top 10 Lists</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="imdb.html">IMDb Top 10 Lists</a>
+          </li>
+      
+  
+        </ul>
+      </nav>
+ 
+      <img class=film_reel_image src="film_reel_2.jpg" alt="Film Reel Image">
+     
+
+    <div class=container>
+    <div class=row>
+      <div class="col-md-12">
+      <h1 class=header>
+        Project Proposal 
+      </h1>
+      </div>
+    </div>
+
+    <div class=row>
+      <div class="col-md-12">
+        <h2 class=sub_header> 
+          by Ben Stork, Crisharon Beale, Robert Payne, Julie Pyle
+        </h2>
+      </div>
+    </div>
+       
+    <div class=row>
+      <div class="col-md-12">
+      <p class=paragraph>
+        Create a movie information data frame in SQL that allows users to 
+        quickly and conveniently search for the top movies based on 
+        IMDb and Rotten Tomatoes ratings.
+      </p>
+      <p class=paragraph>
+        We will use the following movie data sets from Kaggle:
+        <a href="https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney">
+          movies on streaming networks dataset</a> 
+          and the
+          <a href=https://www.kaggle.com/rounakbanik/the-movies-dataset>
+          movie metadata set. </a> 
+      </p>
+      <p class=paragraph>
+        Users will be able to utilize the dataframe in SQL to complete 
+        any of the following analyses (and more):
+        <br>
+            - Top movie ratings from Rotten Tomatoes and IMDb by genre
+            <br>
+            - Top movie ratings from Rotten Tomatoes and IMDb by age category
+            <br>
+            - Top movie ratings from Rotten Tomatoes and IMDb by year
+            <br>
+            - What streaming service to find a movie
+            <br>
+       </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped" style="width:100%">
+          <h3 class=project_breakdown_header>
+            Project Breakdown
+          </h3>
+          <tr>
+            <th>Name</th>
+            <th>Project Tasks</th> 
+          </tr>
+          <tr>
+            <td>Ben Stork</td>
+            <td>-Imported CSV files and combined data sets
+              <br>
+              -Combined code from all group members upon completion
+              <br>
+              -Cleaned data to combine the 2 main datasets based on movie “Title” and “Year”</td>
+          </tr>
+          <tr>
+            <td>Crisharon Beale</td>
+            <td>-Created schemas
+              <br>
+              -Developed code for the connection between python and postgres
+              <br>
+              -Created tables in python & postgres 
+              <br>
+              -Created general queries for the questions others may use for analyses</td>
+          </tr>
+          <tr>
+            <td>Robert Payne</td>
+            <td>-Managed the github and all contributions
+              <br>
+              -Cleaned data to prepare for postgres import, focusing on the movie genre classification</td>
+          </tr>
+            <td>Julie Pyle</td>
+            <td>-Created all HTML code for the final presentation and webpages
+              <br>
+              -Created ER diagram</td>
+        </table>
+      </div>
+
+      </div>
+    </div>
+      
+  </div>
+
+</body>

@@ -1,0 +1,92 @@
+.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lavender;
+}
+.nav-link {
+    font-size: 20px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.image {
+    margin-top: 25px;
+}
+
+.er_diagram {
+    float: left;
+}
+.rotten_tomato_image {
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+    size: 25px;
+}
+
+.imdb_image {
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.film_reel_image {
+    width: 30%;
+    height: 30%;
+    margin-top: 25px;
+    margin-right: 25px;
+    float: right;
+}
+
+.header {
+    font-size: 45px;
+    font-weight: bold;
+    font-style: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.sub_header {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+
+}
+.paragraph {
+    font-size: 25px;
+    font-style: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+}
+
+.dataframe {
+    margin-left: 20px;
+}
+
+.table_headers {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.table {
+    font-size: 20px;
+    font-style: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+    background-color: seashell;
+}
+
+.project_breakdown_header {
+    margin-top: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+    text-decoration: underline;
+}

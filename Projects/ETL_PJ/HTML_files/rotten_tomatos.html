@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" charset="UTF-8"/> 
+  <title>Home page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html" class="color">Movie Ratings Analysis</a>
+      
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="project_proposal.html">Project Proposal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="er_diagram.html">ER Diagram</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rotten_tomatos.html">Rotten Tomatoes Top 10 Lists</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="imdb.html">IMDb Top 10 Lists</a>
+          </li>
+
+          
+        </ul>
+      </nav>
+
+  
+
+<div class=container>
+<div class=row>
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Action Films
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Rotten Tomatoes Rating</th>
+      <th>Year</th>
+      <th>Movie Title</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>97%</td>
+      <td>2016</td>
+      <td>Hell or High Water</td>
+    
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>97%</td>
+      <td>2011</td>
+      <td>Nuit Blanche</td>
+      
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>97%</td>
+      <td>2004</td>
+      <td>The Incredibles</td>
+      
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>96%</td>
+      <td>2010</td>
+      <td>葉問2: 宗師傳奇</td>
+  
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>95%</td>
+      <td>1981</td>
+      <td>Raiders of the Lost Ark</td>
+      
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>95%</td>
+      <td>2010</td>
+      <td>十三人の刺客</td>
+   
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>94%</td>
+      <td>2016</td>
+      <td>부산행</td>
+    
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>94%</td>
+      <td>2013</td>
+      <td>Snowpiercer</td>
+     
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>94%</td>
+      <td>2008</td>
+      <td>The Dark Knight</td>
+     
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>94%</td>
+      <td>2008</td>
+      <td>The Wrecking Crew</td>
+
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col-md-6">
+  <img class="rotten_tomato_image" src="rotten_tomatoes_pic.jpg" alt="Rotten Tomatoes">
+</div>
+</div>
+
+<div class=row>
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Comedy Films
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Rotten Tomatoes Rating</th>
+      <th>Year</th>
+      <th>Movie Title</th>
+  
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>99%</td>
+      <td>2016</td>
+      <td>Ma vie de courgette</td>
+   
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>99%</td>
+      <td>2012</td>
+      <td>وجدة‎‎</td>
+     
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>99%</td>
+      <td>2003</td>
+      <td>Finding Nemo</td>
+    
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>99%</td>
+      <td>2015</td>
+      <td>Truman</td>
+   
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>98%</td>
+      <td>1940</td>
+      <td>His Girl Friday</td>
+   
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>98%</td>
+      <td>2017</td>
+      <td>The Big Sick</td>
+     
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>98%</td>
+      <td>2009</td>
+      <td>Up</td>
+    
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>98%</td>
+      <td>1972</td>
+      <td>Le Charme discret de la bourgeoisie</td>
+  
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>98%</td>
+      <td>1953</td>
+      <td>Roman Holiday</td>
+  
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>98%</td>
+      <td>2007</td>
+      <td>ביקור התזמורת</td>
+  
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Documentaries
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Rotten Tomatoes</th>
+      <th>Year</th>
+      <th>Movie Title</th>
+    
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>99%</td>
+      <td>2012</td>
+      <td>The Invisible War</td>
+   
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>99%</td>
+      <td>2013</td>
+      <td>20 Feet from Stardom</td>
+    
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>99%</td>
+      <td>2011</td>
+      <td>Jiro Dreams of Sushi</td>
+    
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>99%</td>
+      <td>2001</td>
+      <td>Rivers and Tides</td>
+    
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>99%</td>
+      <td>2017</td>
+      <td>I Am Not Your Negro</td>
+      
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>98%</td>
+      <td>2013</td>
+      <td>Blackfish</td>
+     
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>98%</td>
+      <td>2005</td>
+      <td>Murderball</td>
+    
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>98%</td>
+      <td>1978</td>
+      <td>The Last Waltz</td>
+     
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>98%</td>
+      <td>2015</td>
+      <td>Finders Keepers</td>
+     
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>98%</td>
+      <td>2012</td>
+      <td>Nazywaj mnie Kuchu</td>
+     
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<br>
+
+<div class=row>
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Drama Films
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Rotten Tomatoes Rating</th>
+      <th>Year</th>
+      <th>Movie Title</th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>99%</td>
+      <td>2016</td>
+      <td>Ma vie de courgette</td>
+   
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>99%</td>
+      <td>2014</td>
+      <td>Song of the Sea</td>
+   
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>99%</td>
+      <td>2015</td>
+      <td>Truman</td>
+    
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>99%</td>
+      <td>2016</td>
+      <td>Under the Shadow</td>
+     
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>99%</td>
+      <td>2013</td>
+      <td>Gloria</td>
+    
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>99%</td>
+      <td>2013</td>
+      <td>Starred Up</td>
+ 
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>99%</td>
+      <td>2012</td>
+      <td>وجدة‎‎</td>
+    
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>98%</td>
+      <td>2016</td>
+      <td>Moonlight</td>
+ 
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>98%</td>
+      <td>1988</td>
+      <td>火垂るの墓</td>
+  
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>98%</td>
+      <td>2008</td>
+      <td>Låt den rätte komma in</td>
+      
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Family Films
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Rotten Tomatoes Rating</th>
+      <th>Year</th>
+      <th>Movie Title</th>
+ 
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>99%</td>
+      <td>2014</td>
+      <td>Song of the Sea</td>
+    
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>99%</td>
+      <td>2003</td>
+      <td>Finding Nemo</td>
+  
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>99%</td>
+      <td>2016</td>
+      <td>Ma vie de courgette</td>
+    
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>98%</td>
+      <td>2010</td>
+      <td>Toy Story 3</td>
+ 
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>98%</td>
+      <td>1937</td>
+      <td>Snow White and the Seven Dwarfs</td>
+  
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>98%</td>
+      <td>2009</td>
+      <td>Up</td>
+    
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>98%</td>
+      <td>2016</td>
+      <td>Zootopia</td>
+    
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>98%</td>
+      <td>1961</td>
+      <td>One Hundred and One Dalmatians</td>
+    
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>97%</td>
+      <td>2004</td>
+      <td>Double Dare</td>
+    
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>97%</td>
+      <td>2012</td>
+      <td>Ernest et Célestine</td>
+     
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+<div class=row>
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Horror Films
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Rotten Tomatoes Rating</th>
+      <th>Year</th>
+      <th>Movie Title</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>99%</td>
+      <td>2016</td>
+      <td>Under the Shadow</td>
+  
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>99%</td>
+      <td>2016</td>
+      <td>곡성</td>
+  
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>98%</td>
+      <td>2008</td>
+      <td>Låt den rätte komma in</td>
+   
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>97%</td>
+      <td>2015</td>
+      <td>Nina Forever</td>
+     
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>97%</td>
+      <td>1968</td>
+      <td>Night of the Living Dead</td>
+    
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>97%</td>
+      <td>1922</td>
+      <td>Nosferatu, eine Symphonie des Grauens</td>
+  
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>96%</td>
+      <td>1968</td>
+      <td>Rosemary's Baby</td>
+    
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>96%</td>
+      <td>1975</td>
+      <td>Profondo Rosso</td>
+
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>96%</td>
+      <td>1955</td>
+      <td>Les diaboliques</td>
+  
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>95%</td>
+      <td>1981</td>
+      <td>The Evil Dead</td>
+ 
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Sci-Fi Films
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Rotten Tomatoes Rating</th>
+      <th>Year</th>
+      <th>Movie</th>
+  
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>98%</td>
+      <td>2017</td>
+      <td>Dina</td>
+      
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>96%</td>
+      <td>1985</td>
+      <td>Back to the Future</td>
+  
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>96%</td>
+      <td>2015</td>
+      <td>Avril et le monde truqué</td>
+  
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>95%</td>
+      <td>2008</td>
+      <td>WALL·E</td>
+    
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>95%</td>
+      <td>1982</td>
+      <td>Liquid Sky</td>
+     
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>95%</td>
+      <td>2013</td>
+      <td>Her</td>
+    
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>94%</td>
+      <td>2013</td>
+      <td>Snowpiercer</td>
+  
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>93%</td>
+      <td>2015</td>
+      <td>Star Wars: The Force Awakens</td>
+  
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>93%</td>
+      <td>2006</td>
+      <td>괴물</td>
+    
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>93%</td>
+      <td>2017</td>
+      <td>Thor: Ragnarok</td>
+  
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class=row>
+<div class="col-md-12">
+<h2 class=table_headers>
+  Top 10 Western Films
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Rotten Tomatoes Rating</th>
+      <th>Year</th>
+      <th>Movie Title</th>
+   
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>97%</td>
+      <td>2016</td>
+      <td>Hell or High Water</td>
+  
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>97%</td>
+      <td>1966</td>
+      <td>Il buono, il brutto, il cattivo</td>
+ 
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>96%</td>
+      <td>1970</td>
+      <td>Little Big Man</td>
+  
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>96%</td>
+      <td>2010</td>
+      <td>True Grit</td>
+   
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>95%</td>
+      <td>1968</td>
+      <td>C'era una volta il West</td>
+    
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>93%</td>
+      <td>1954</td>
+      <td>Johnny Guitar</td>
+ 
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>93%</td>
+      <td>1962</td>
+      <td>The Man Who Shot Liberty Valance</td>
+ 
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>92%</td>
+      <td>2015</td>
+      <td>Slow West</td>
+  
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>91%</td>
+      <td>2015</td>
+      <td>Bone Tomahawk</td>
+    
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>91%</td>
+      <td>1991</td>
+      <td>Thousand Pieces of Gold</td>
+ 
+    </tr>
+  </tbody>
+</table>
+</div>
+
+</div>

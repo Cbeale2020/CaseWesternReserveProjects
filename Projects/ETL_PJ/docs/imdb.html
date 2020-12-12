@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" charset="UTF-8"/> 
+  <title>Home page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html" class="color">Movie Ratings Analysis</a>
+      
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="project_proposal.html">Project Proposal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="er_diagram.html">ER Diagram</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rotten_tomatos.html">Rotten Tomatoes Top 10 Lists</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="imdb.html">IMDb Top 10 Lists</a>
+          </li>
+
+          
+        </ul>
+      </nav>
+
+  
+
+<div class=container>
+<div class=row>
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Action Films
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>IMDb Rating</th>
+      <th>Movie Title</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>9.0</td>
+      <td>The Dark Knight</td>
+      <td>2008</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>8.9</td>
+      <td>The Mountain II</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8.8</td>
+      <td>Inception</td>
+      <td>2010</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>8.7</td>
+      <td>Star Wars: The Empire Strikes Back</td>
+      <td>1980</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>8.7</td>
+      <td>The Matrix</td>
+      <td>1999</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>8.7</td>
+      <td>RWBY: Volume 3</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8.6</td>
+      <td>Star Wars: A New Hope</td>
+      <td>1977</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>8.6</td>
+      <td>Run Baby Run</td>
+      <td>1998</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>8.5</td>
+      <td>Avengers: Infinity War</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>8.4</td>
+      <td>Spider-Man: Into the Spider-Verse</td>
+      <td>2018</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col-md-6">
+  <img class="imdb_image" src="imdb_pic.jpeg" alt="IMDb">
+</div>
+</div>
+
+<div class=row>
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Comedy Films
+</h2>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>IMDb Rating</th>
+      <th>Movie Title</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>9.3</td>
+      <td>Love on a Leash</td>
+      <td>2011</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>9.3</td>
+      <td>Steven Banks: Home Entertainment Center</td>
+      <td>1989</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8.9</td>
+      <td>Arise</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>8.8</td>
+      <td>Memories 677</td>
+      <td>2011</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>8.7</td>
+      <td>Bill Hicks: Relentless</td>
+      <td>1992</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>8.7</td>
+      <td>George Carlin: Back in Town</td>
+      <td>1996</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8.7</td>
+      <td>George Carlin: Jammin' in New York</td>
+      <td>1992</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>8.6</td>
+      <td>Luciano Mellera: Infantiloide</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>8.6</td>
+      <td>Bill Hicks: Revelations</td>
+      <td>1993</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>8.6</td>
+      <td>Gol Maal</td>
+      <td>1979</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Documentaries
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>IMDb Rating</th>
+      <th>Movie Title</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>9.3</td>
+      <td>Square One</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>9.3</td>
+      <td>Down, But Not Out!</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>9.1</td>
+      <td>Finding Family</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>9.1</td>
+      <td>Where's Daddy?</td>
+      <td>2017</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>9.0</td>
+      <td>Escape from Firebase Kate</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>9.0</td>
+      <td>A Dog Named Gucci</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8.9</td>
+      <td>The Creators</td>
+      <td>2012</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>8.9</td>
+      <td>Lost Kites</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>8.9</td>
+      <td>7 Days in Syria</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>8.9</td>
+      <td>Peter Gabriel: Secret World Live</td>
+      <td>1993</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+
+<div class=row>
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Drama Films
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>IMDb Rating</th>
+      <th>Movie Title</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>9.3</td>
+      <td>Love on a Leash</td>
+      <td>2011</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>9.3</td>
+      <td>Bounty</td>
+      <td>2011</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>9.3</td>
+      <td>Square One</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>9.1</td>
+      <td>Natsamrat</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>9.0</td>
+      <td>The Dark Knight</td>
+      <td>2008</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>9.0</td>
+      <td>A Dog Named Gucci</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8.9</td>
+      <td>7 Days in Syria</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>8.9</td>
+      <td>Arise</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>8.9</td>
+      <td>The Mountain II</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>8.9</td>
+      <td>The Jones Family Will Make a Way</td>
+      <td>2015</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Family Films
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>IMDb Rating</th>
+      <th>Movie Title</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>9.1</td>
+      <td>Natsamrat</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>9.1</td>
+      <td>Finding Family</td>
+      <td>2013</td>
+
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8.9</td>
+      <td>The Jones Family Will Make a Way</td>
+      <td>2015</td>
+
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>8.8</td>
+      <td>First Flight: A Mother Hummingbird's Story</td>
+      <td>2009</td>
+     
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>8.8</td>
+      <td>Shred: The Story of Asher Bradshaw</td>
+      <td>2013</td>
+    
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>8.8</td>
+      <td>Ruby's Studio: the Feelings Show</td>
+      <td>2010</td>
+    
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8.7</td>
+      <td>Hearing Is Believing</td>
+      <td>2017</td>
+    
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>8.6</td>
+      <td>Home</td>
+      <td>2009</td>
+  
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>8.6</td>
+      <td>It's a Wonderful Life</td>
+      <td>1946</td>
+     
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>8.6</td>
+      <td>True: Happy Hearts Day</td>
+      <td>2019</td>
+    
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+<div class=row>
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Horror Films
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>IMDb Rating</th>
+      <th>Movie Title</th>
+      <th>Year</th>
+    
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>8.8</td>
+      <td>Memories 677</td>
+      <td>2011</td>
+    
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>8.4</td>
+      <td>Art of Darkness</td>
+      <td>2014</td>
+     
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8.4</td>
+      <td>Blood Relative</td>
+      <td>2012</td>
+    
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>8.3</td>
+      <td>Blood Brother</td>
+      <td>2013</td>
+  
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>8.3</td>
+      <td>Tumbbad</td>
+      <td>2018</td>
+ 
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>8.2</td>
+      <td>Freak</td>
+      <td>2011</td>
+  
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8.1</td>
+      <td>Closure</td>
+      <td>2013</td>
+   
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>8.1</td>
+      <td>The Cabinet of Dr. Caligari</td>
+      <td>1920</td>
+    
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>8.0</td>
+      <td>Dark Shadows: The Haunting of Collinwood</td>
+      <td>2009</td>
+     
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>8.0</td>
+      <td>Rosemary's Baby</td>
+      <td>1968</td>
+     
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col-md-6">
+<h2 class=table_headers>
+  Top 10 Sci-Fi Films
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>IMDb Rating</th>
+      <th>Movie Title</th>
+      <th>Year</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>8.8</td>
+      <td>Inception</td>
+      <td>2010</td>
+     
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>8.8</td>
+      <td>Memories 677</td>
+      <td>2011</td>
+   
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8.7</td>
+      <td>Star Wars: The Empire Strikes Back</td>
+      <td>1980</td>
+    
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>8.7</td>
+      <td>RWBY: Volume 3</td>
+      <td>2016</td>
+   
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>8.7</td>
+      <td>The Matrix</td>
+      <td>1999</td>
+
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>8.6</td>
+      <td>Star Wars: A New Hope</td>
+      <td>1977</td>
+    
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8.6</td>
+      <td>Home</td>
+      <td>2009</td>
+    
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>8.5</td>
+      <td>Back to the Future</td>
+      <td>1985</td>
+   
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>8.5</td>
+      <td>Avengers: Infinity War</td>
+      <td>2018</td>
+   
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>8.4</td>
+      <td>Spider-Man: Into the Spider-Verse</td>
+      <td>2018</td>
+  
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+<div class=row>
+<div class="col-md-12">
+<h2 class=table_headers>
+  Top 10 Western Films
+</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>IMDb Rating</th>
+      <th>Movie Title</th>
+      <th>Year</th>
+  
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>8.8</td>
+      <td>The Good, the Bad and the Ugly</td>
+      <td>1966</td>
+     
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>8.5</td>
+      <td>Once Upon a Time in the West</td>
+      <td>1968</td>
+ 
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8.4</td>
+      <td>Ghosts of the West: The End of the Bonanza Trail</td>
+      <td>2012</td>
+  
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>8.4</td>
+      <td>Django Unchained</td>
+      <td>2012</td>
+   
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>8.3</td>
+      <td>Calamity Jane: Légende de l'Ouest</td>
+      <td>2014</td>
+  
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>8.2</td>
+      <td>Sholay</td>
+      <td>1975</td>
+  
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8.2</td>
+      <td>Gold Fever</td>
+      <td>2013</td>
+    
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>8.1</td>
+      <td>An Occurrence at Owl Creek Bridge</td>
+      <td>1962</td>
+    
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>8.1</td>
+      <td>The Man Who Shot Liberty Valance</td>
+      <td>1962</td>
+     
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>7.9</td>
+      <td>The Big Country</td>
+      <td>1958</td>
+    
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
