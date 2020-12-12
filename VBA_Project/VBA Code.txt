@@ -1,0 +1,84 @@
+Sub TickerSymbol():
+
+Dim TickerName As String
+Dim LastRow As Long
+Dim OpenP As Double
+Dim CloseP As Double
+Dim STR As Integer
+Dim YearlyChange As Double
+Dim Vol As Double
+Dim ws As Worksheet
+Dim PercentCh As Double
+On Error Resume Next
+
+
+For Each ws In ThisWorkbook.Worksheets
+
+ws.Cells(1, 9).Value = "Ticker"
+ws.Cells(1, 10).Value = "Yearly Change"
+ws.Cells(1, 11).Value = "Percent Change"
+ws.Cells(1, 12).Value = "Total Stock Volume"
+
+
+LastRow = Cells(Rows.Count, "A").End(xlUp).Row
+STR = 2
+For i = 2 To LastRow
+    If ws.Cells(i, 1).Value <> ws.Cells(i - 1, 1).Value Then
+        OpenP = ws.Cells(i, 3).Value
+        
+        End If
+            
+
+    If ws.Cells(i + 1, 1).Value <> ws.Cells(i, 1).Value Then
+    
+    TickerName = ws.Cells(i, 1).Value
+    
+    
+    CloseP = ws.Cells(i, 6).Value
+    
+    
+    Vol = Vol + ws.Cells(i, 7).Value
+    
+    YearlyChange = YearlyChange + (CloseP - OpenP)
+        
+    PercentCh = (CloseP - OpenP) / CloseP
+    
+    
+        
+    ws.Cells(STR, 9).Value = TickerName
+    ws.Cells(STR, 10).Value = YearlyChange
+    ws.Cells(STR, 11).Value = PercentCh
+    ws.Cells(STR, 12).Value = Vol
+    
+    ws.Columns("I:L").AutoFit
+    
+    STR = STR + 1
+    
+    YearlyChange = 0
+    
+    Vol = 0
+    
+     
+    Else
+    
+    Vol = Vol + ws.Cells(i, 7).Value
+    
+   End If
+ 
+ ws.Cells(STR, 11).NumberFormat = "0.00%"
+ ws.Cells(STR, 11).Value = Percent
+ 
+ If ws.Cells(STR, 10).Value >= 0 Then
+    ws.Cells(STR, 10).Interior.ColorIndex = 4
+                
+    Else
+    ws.Cells(STR, 10).Interior.ColorIndex = 3
+
+End If
+
+Next i
+
+Next ws
+
+End Sub
+
