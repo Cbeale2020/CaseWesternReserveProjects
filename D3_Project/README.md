@@ -1,7 +1,6 @@
 # D3-Challenge
 
-The browsers may fail to load unless run on a server. A work around for this issue is to use `python -m http.server 8000 --bind 127.0.0.1` method to view this project or this link:
-
+The browsers may fail to load unless run on a server. A work around for this issue is to use `python -m http.server 8000 --bind 127.0.0.1` 
 
 ## Files Attached: 
 
